@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+/* CSS Reset Code Start */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+}
+
+a{
+     text-decoration: none;
+     color: #white;
+}
+
+/* CSS Reset Code Start */
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 1), rgba(0, 0, 0, 1));
+}
+
+.form{
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 600px;
+    margin: auto;
+    padding: 10px;
+}
+
+.info input{
+    width: 48%;
+    height: 30px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.trace input{
+    width: 48%;
+    height: 30px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.message textarea{
+    width: 98%;
+    height: 80px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.socials i{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 6px;
+    color: white;
+}
+
+.message button{
+    width: 30%;
+    height: 40px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.904), rgba(255, 166, 0, 0.904));
+}
+
+.details{
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 600px;
+    right: 0px;
+    margin: auto;
+    padding: 10px;
+}
+
+.details h2{
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 75px;
+    color: rgba(255, 166, 0, 0.904);
+    margin-top: 10px;
+}
+
+.details p{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
